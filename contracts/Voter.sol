@@ -14,4 +14,12 @@ contract Voter {
     require(option < options.length, "Invalid option");
     votes[option] += 1;
   }
+
+  function getOptions() public view returns (string[] memory){
+    return options;
+  }
+
+  function getVotes() public view returns (uint[] memory){
+    return votes;
+  }
 }
