@@ -1,12 +1,12 @@
 {
   "name": "manual-contracts",
   "version": "1.0.0",
-  "description": "",
+  "description": "Learning if how web3 works inside JS code",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "solo12zw74",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.0.3",
